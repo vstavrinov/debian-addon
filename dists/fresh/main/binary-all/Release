@@ -1,0 +1,5 @@
+Archive: fresh
+Origin: debian-addon
+Label: debian-addon
+Components: main
+Architecture: all

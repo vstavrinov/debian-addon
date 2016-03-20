@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: all
+Codename: fresh
+Components: main
+Date: Sun, 20 Mar 2016 11:52:32 UTC
+Description: Extended Debian
+Label: debian-addon
+Origin: debian-addon
+Suite: fresh
+MD5Sum:
+ 6758cd63e5daa99f73b15d78822b3437             1901 Release
+ e8c45707300a698fbc7c96f4cb3d5c83             5982 main/binary-all/Packages
+ d6bc1cd4f65b075a38392a25e4fd698c             2881 main/binary-all/Packages.gz
+ 898f523c7679d37823d406be30d62637               91 main/binary-all/Release
+SHA1:
+ f36e14bfaff38ad00b526966e4858379729912d2             1901 Release
+ 4cb004f3a1c3f09c6dcd8aac089510b7af095f10             5982 main/binary-all/Packages
+ 4f2c045918e0bb46e80502d74c5d156471b1e09c             2881 main/binary-all/Packages.gz
+ 338ce2cecf74417d39b49fc78d4e2d32f3e9a80d               91 main/binary-all/Release
+SHA256:
+ b05ff5a17634453796b325fa8230be0993552c7f0fb889affd3d8bd860173dd3             1901 Release
+ 5245229e0ced6b7ae390e377de7911fcf3d459a4492cc5b168474c20a9de5e62             5982 main/binary-all/Packages
+ 9915165518e3bdb4ece5bf2e7cd15e7f346f3b811bc210ed6a76dca0ba5122c6             2881 main/binary-all/Packages.gz
+ 91b5e509b24e81dc42cffc7f1df8e55d486f013aff497708a462acc1ef9e7895               91 main/binary-all/Release
+SHA512:
+ 67ba7a3a40abaf14e88bfe62c6b1bd4bb57fe2658b694d99331bf6f7e2afa674a6eb9cc3d4339af8796a22c9ac058e8f9fdf0d972d2ea8675737dd33918e8bda             1901 Release
+ b728f52e94e5adb911e20ef36b6e7f7a97a49e60597cc05853124f3f4f7de94c0e11e2e5462b58a8049eecaa7f2c4dc7f4ba181650212c4ef09ed34daead4ce0             5982 main/binary-all/Packages
+ 898a67a2d64da49be7cc37dbb2550bc897ec8a4bbe5e234f49f107aab0d84fcef473c562df17616fd66a0c12668fd097880c29517f6bc017c78d94f3959e1bc9             2881 main/binary-all/Packages.gz
+ 60f59ce1a7f78eaedddc58192a1b631d2893870c92758901e8fd1682c5d0a4f3ac548ba058c6cfac801bf4a81539328307d442d9e471995491df4eecb7f65614               91 main/binary-all/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBCAAGBQJW7o8AAAoJEMIngx7tQD0tHQYH/2+CHB0dl0Cucb4kkNN54vdf
+rN/LUL7mBc9J2pLzeKI1gbFegPG1VUb9CVlwtiWhA3Z+9xnMsEjNWQdG4ZG07CMn
+ZTzivUGsk3lKQepSz799h/rpwBg2eCL08CIINzmo4ZIJPbXfoBuko8tPnY8AXHBX
+Ds73ICjt3B0JBl155u64+W/xjanGlppC6YNbdttMI8i/oJba2YpBTjHdKLBwI4JS
+bLEVBe8fdi6/FYQmlTnwpwWVWqur4GhmC3XOHzHbfMvy/rYXFDuyiSQB/JSu9wRZ
+tS97KubjzBCZIf/StdD/tZuX16MwTSDl/75ekNUZrEWbNnMK6z+M5a8+TVQ+kKI=
+=TvDa
+-----END PGP SIGNATURE-----

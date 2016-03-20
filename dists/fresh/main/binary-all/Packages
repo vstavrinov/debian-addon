@@ -1,0 +1,124 @@
+Package: updeb
+Architecture: all
+Version: 1.1.9
+Priority: optional
+Section: admin
+Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
+Installed-Size: 40
+Depends: mailutils, aptitude | apt, debtags
+Filename: pool/updeb_1.1.9_all.deb
+Size: 11340
+MD5sum: 56fe33ca2fc6bf34dc371f89d13a74f2
+SHA1: d32a15a70cb6c61073740d54e85f6bf9eda0bd66
+SHA256: 2a3b4e593092abfffcc1c97edefc7f58c2d5bd938eaa265cd6e0e60efe1445ab
+SHA512: 36cba77c343b193d620707172e2c795dc1c7b0e7858c2cd02d2c8a964870dd4a1bc1382c54d7956f7fc89b066937c4506d89842c5dcf7571dc9b2e35e1e15ef2
+Homepage: http://sourceforge.net/projects/updeb/
+Description: Non-interactive upgrade Debian system
+ This script will upgrade running Debian system and email the result: what was
+ upgraded, from what version to what and for what period of time. The actual
+ upgrade will be done only if all index files will be successfully updated, all
+ required packages will be successfully downloaded, and finally only if the
+ simulating of upgrade will be finished without errors. All old configuration
+ files are preserved and can be compared with new *.dpkg-dist files. The auto
+ roll back and health check features allows to get system in old state if
+ upgrade or test fails. It is intended to be used as cron job.
+
+Package: rpg
+Architecture: all
+Version: 1.0.4-1
+Priority: optional
+Section: admin
+Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
+Installed-Size: 57
+Filename: pool/rpg_1.0.4-1_all.deb
+Size: 6960
+MD5sum: 93fd7835cae208cf8bf0888aac39394d
+SHA1: 53825766c942e24576aed7e50b2703f5a2989216
+SHA256: ef256bafa62d5c0921459bb0f0467d899d120807c016c35d3eff8aa6dfc9e08b
+SHA512: bcef752bbd2981ece73ceaeeb9a5e40c3bd521a2dc28b283451b08f87a2c382cf5fe374c60b6261f1627022762fe41ba72310ce6008b5e4722d740edef0818b5
+Homepage: http://sourceforge.net/projects/rpg/
+Description: Readable Password Generator
+ This shell script generate passwords easy to read and remember, but still
+ strong enough. This is achieved by some restrictions. Some letters, digits,
+ and letter combinations are excluded. No consecutive vowel. No more then 2
+ consecutive consonant. No consecutive consonant before and after digit.  Main
+ stream is lower case letters. Chance to include digit and upper case letters
+ may be adjusted.
+
+Package: install-debian
+Architecture: all
+Version: 2.2.9
+Priority: optional
+Section: admin
+Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
+Installed-Size: 71
+Depends: debootstrap, dialog, dmraid, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, aptitude
+Filename: pool/install-debian_2.2.9_all.deb
+Size: 22442
+MD5sum: 7065f99695a81cd97e30726a1f27e4a2
+SHA1: d37640376d16aeeac7812060167fdf78d5fc4403
+SHA256: e4be1836b53db30a1071e66b61169c7c4ce18ff490f2040fdab60f0540912fa8
+SHA512: 2b98ea7a08c15b01a9d3df1777fe2f0b6f60dc5e7e065adeb2938585d94a2f846bb143c124493a103305a16fc1cd3d9153a7b3e2df711dc8c238fa145377cdb2
+Homepage: http://sourceforge.net/projects/install-debian/
+Description: This command line utility installs Debian system non-interactively
+ It should be started from within Live CD, Network Boot or from any bootable
+ media, other then Your system disk. It fully supports software RAID and UEFI
+ boot. You can change defaults and most settings with command line options and
+ configuration variables. All settings if not defined in config file or as
+ command line options, will be set to it's defaults either as constant values
+ or evaluated from running system.
+ .
+ By default it chooses largest disk for installation. If there are more then
+ one such disk of the same size, it makes RAID array. Partitioning scheme
+ supports separate partition for /boot, and separate logical volumes for root
+ filesystem, /usr, /var, /tmp and /home. Also there are option to install system
+ into single pre-mount point. In this case partitioning and mounting every part
+ leave on Your own.
+ .
+ This script installs only bit more packages then base system includes. The
+ main purpose is to get bootable system. After booting new system You can
+ install everything what You want.
+
+Package: flashstreamer
+Architecture: all
+Version: 1.2.15
+Priority: extra
+Section: video
+Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
+Installed-Size: 76
+Depends: libav-tools, progeny, adduser, gawk
+Filename: pool/flashstreamer_1.2.15_all.deb
+Size: 10456
+MD5sum: 87269297cc8a15be486fedd782cb08b9
+SHA1: e75c88df82ad449affe5fb55c630be03e53e7c6d
+SHA256: f8bb48e3838e7e7118384ec4b5bf33de3b0ced02677d8857217ca5504d6685da
+SHA512: 3b4bf04895cb2838e0fa033796fcf41df529a3a5e93dc9fba636476a0f643a8addbb2890331f7d37a5b98d8fab0a9d3fb2b77face7779abd496a41da7151d7a9
+Homepage: http://sourceforge.net/projects/flashstreamer/
+Description: Flash video webcast tool
+ takes an video stream from usb or ip camera and translates it onto video
+ server for further publishing. On this way it can convert a lot of formats and
+ codecs. It operates like a service. It restarts on any termination, caused by
+ connection loosing or by any other failures. You can run more then one stream
+ in the same system.  Every stream can be started and stopped individually with
+ init script, that starts all of them at boot time. It also provides versatile
+ configuration options and logging features.
+
+Package: progeny
+Architecture: all
+Version: 1.0.6
+Priority: extra
+Section: admin
+Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
+Installed-Size: 38
+Filename: pool/progeny_1.0.6_all.deb
+Size: 2624
+MD5sum: 8c7be13a5727d9c9b3d4d2aea8750308
+SHA1: fc5bb2de73e60dadf44ac46f116fe6c9a89acedd
+SHA256: 3b64cabf41c199467ef35d2f1ffd77ea1298e6d0e2cb0202e5a1a2e00d3267a6
+SHA512: 1a7b9d61e9049a45f39d6dc49cfe8ecd27485faf1e7cb904884742a25643463315c5dc98ed1044110b25f2e205c3f96148f0595cb2985f0001be7fffd1968266
+Homepage: http://sourceforge.net/projects/process-progeny/
+Description: Returns process's progeny in all generations recursively
+ calculated from PID as parent. It is simple as possible without any options.
+ And its output could be used to kill processes, change priority or someting
+ else.
+
