@@ -4,7 +4,7 @@ EXTRA DEBIAN REPOSITORY
 
 Debian repository for packages not included in official archive. To use it put the file:
 
-http://sourceforge.net/projects/debian-addon/files/debian-addon.list
+https://raw.githubusercontent.com/vstavrinov/debian-addon/master/debian-addon.list
 
 into /etc/apt/sources.list.d/ directory:
 
