@@ -1,18 +1,18 @@
 Package: updeb
 Architecture: all
-Version: 1.1.9
+Version: 1.1.10
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
-Installed-Size: 40
+Installed-Size: 41
 Depends: mailutils, aptitude | apt, debtags
-Filename: pool/updeb_1.1.9_all.deb
-Size: 11340
-MD5sum: 56fe33ca2fc6bf34dc371f89d13a74f2
-SHA1: d32a15a70cb6c61073740d54e85f6bf9eda0bd66
-SHA256: 2a3b4e593092abfffcc1c97edefc7f58c2d5bd938eaa265cd6e0e60efe1445ab
-SHA512: 36cba77c343b193d620707172e2c795dc1c7b0e7858c2cd02d2c8a964870dd4a1bc1382c54d7956f7fc89b066937c4506d89842c5dcf7571dc9b2e35e1e15ef2
-Homepage: http://sourceforge.net/projects/updeb/
+Filename: pool/updeb_1.1.10_all.deb
+Size: 11820
+MD5sum: b9e69a3164cc65fd23648468ba260f35
+SHA1: e606cef11d8bf784c41c768c9781e75490410c0f
+SHA256: 0c28a13f95fe8d7c47239f0289d062ffa2dbac854cb310807ac5e0547fb2fbab
+SHA512: 8323045d55f050ed2e10bdf4c52fc324d6924b1c89dad22b77d70d8ca44d235b01c87238e40dd67716fa6c521b6d1806ce8aa5a4beab7e3e5f33114a77a2c930
+Homepage: https://github.com/vstavrinov/updeb
 Description: Non-interactive upgrade Debian system
  This script will upgrade running Debian system and email the result: what was
  upgraded, from what version to what and for what period of time. The actual
@@ -25,18 +25,18 @@ Description: Non-interactive upgrade Debian system
 
 Package: rpg
 Architecture: all
-Version: 1.0.4-1
+Version: 1.0.4-2
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
-Installed-Size: 57
-Filename: pool/rpg_1.0.4-1_all.deb
-Size: 6960
-MD5sum: 93fd7835cae208cf8bf0888aac39394d
-SHA1: 53825766c942e24576aed7e50b2703f5a2989216
-SHA256: ef256bafa62d5c0921459bb0f0467d899d120807c016c35d3eff8aa6dfc9e08b
-SHA512: bcef752bbd2981ece73ceaeeb9a5e40c3bd521a2dc28b283451b08f87a2c382cf5fe374c60b6261f1627022762fe41ba72310ce6008b5e4722d740edef0818b5
-Homepage: http://sourceforge.net/projects/rpg/
+Installed-Size: 24
+Filename: pool/rpg_1.0.4-2_all.deb
+Size: 6666
+MD5sum: f2a20b09456c27195bc8380e478cc47a
+SHA1: 7b231fef9af7619d8e017f8e7539888665d2d30e
+SHA256: 6a0adacb178f512561dac8068d2c7be3d27832a640fbc255da5047a246f93406
+SHA512: c07a4d352dd5f72a2bcba1b253dcda6b4d06d9cfd9d7a98405ea5f1fb0d263bfdfb276156d350d9babcf1eb4febc758248697b02a17e60db8597c417a29548c1
+Homepage: https://github.com/vstavrinov/rpg
 Description: Readable Password Generator
  This shell script generate passwords easy to read and remember, but still
  strong enough. This is achieved by some restrictions. Some letters, digits,
@@ -47,19 +47,19 @@ Description: Readable Password Generator
 
 Package: install-debian
 Architecture: all
-Version: 2.2.9
+Version: 2.2.10
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
 Installed-Size: 71
 Depends: debootstrap, dialog, dmraid, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, aptitude
-Filename: pool/install-debian_2.2.9_all.deb
-Size: 22442
-MD5sum: 7065f99695a81cd97e30726a1f27e4a2
-SHA1: d37640376d16aeeac7812060167fdf78d5fc4403
-SHA256: e4be1836b53db30a1071e66b61169c7c4ce18ff490f2040fdab60f0540912fa8
-SHA512: 2b98ea7a08c15b01a9d3df1777fe2f0b6f60dc5e7e065adeb2938585d94a2f846bb143c124493a103305a16fc1cd3d9153a7b3e2df711dc8c238fa145377cdb2
-Homepage: http://sourceforge.net/projects/install-debian/
+Filename: pool/install-debian_2.2.10_all.deb
+Size: 22470
+MD5sum: 8da25b86710caca6cbdd61a858ec00cb
+SHA1: a8514213dd62e6dd146db37cdfa97955e2adcc7f
+SHA256: 1ec138e44d97db2b8cded42be0cc08fe33ee505f5644e2ac87c7181a09bb0f93
+SHA512: 500df020e95667bda581f2139ff5bfb520fbf3e781cd20c2a6c8c8285dda37794ce91e83afc0564dc419c17431223f3fadf29ddd1aa042ed56dc8ab49afbdcd4
+Homepage: https://github.com/vstavrinov/install-debian
 Description: This command line utility installs Debian system non-interactively
  It should be started from within Live CD, Network Boot or from any bootable
  media, other then Your system disk. It fully supports software RAID and UEFI
@@ -79,21 +79,40 @@ Description: This command line utility installs Debian system non-interactively
  main purpose is to get bootable system. After booting new system You can
  install everything what You want.
 
+Package: progeny
+Architecture: all
+Version: 1.0.6
+Priority: extra
+Section: admin
+Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
+Installed-Size: 14
+Filename: pool/progeny_1.0.6_all.deb
+Size: 2550
+MD5sum: 93ccea5dbc298d158d914a0fd3f98820
+SHA1: 61973c5fff9f1613b031502c167eb6a512cb2049
+SHA256: cc6d9c2ad65d4134fb8cfaf8dd7e904c5cab3652963ed8a3ac515aa62485d5c3
+SHA512: 83f36134bbf884ceaff7073efdcec7e2f036566cbd3f84a9524d220c13d018e1e42318526d559dd6368dd4d28a38611dcd212d84f753b4f048311ec0582afbb8
+Homepage: https://github.com/vstavrinov/progeny
+Description: Returns process's progeny in all generations recursively
+ calculated from PID as parent. It is simple as possible without any options.
+ And its output could be used to kill processes, change priority or someting
+ else.
+
 Package: flashstreamer
 Architecture: all
-Version: 1.2.15
+Version: 1.2.17
 Priority: extra
 Section: video
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
-Installed-Size: 76
+Installed-Size: 39
 Depends: libav-tools, progeny, adduser, gawk
-Filename: pool/flashstreamer_1.2.15_all.deb
-Size: 10456
-MD5sum: 87269297cc8a15be486fedd782cb08b9
-SHA1: e75c88df82ad449affe5fb55c630be03e53e7c6d
-SHA256: f8bb48e3838e7e7118384ec4b5bf33de3b0ced02677d8857217ca5504d6685da
-SHA512: 3b4bf04895cb2838e0fa033796fcf41df529a3a5e93dc9fba636476a0f643a8addbb2890331f7d37a5b98d8fab0a9d3fb2b77face7779abd496a41da7151d7a9
-Homepage: http://sourceforge.net/projects/flashstreamer/
+Filename: pool/flashstreamer_1.2.17_all.deb
+Size: 10384
+MD5sum: 17da14c8955a2d6d3bdcf99b5b184971
+SHA1: a30093545041f1611e700f6aca3b3951c68ae070
+SHA256: e38f3afba85d8eaf14996a1d982f8fed310267ca2fddb4b39bd05c83fbbc0c0e
+SHA512: 819c198237fdb2b15fb8908cfdad6321036fbe5e572f36aea4cd0af1117daac8a2f4b324aec54bb38c3e2f757aca0b65baa78917a1e9c2c999331d46bf528e07
+Homepage: https://github.com/vstavrinov/flashstreamer
 Description: Flash video webcast tool
  takes an video stream from usb or ip camera and translates it onto video
  server for further publishing. On this way it can convert a lot of formats and
@@ -102,23 +121,4 @@ Description: Flash video webcast tool
  in the same system.  Every stream can be started and stopped individually with
  init script, that starts all of them at boot time. It also provides versatile
  configuration options and logging features.
-
-Package: progeny
-Architecture: all
-Version: 1.0.6
-Priority: extra
-Section: admin
-Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
-Installed-Size: 38
-Filename: pool/progeny_1.0.6_all.deb
-Size: 2624
-MD5sum: 8c7be13a5727d9c9b3d4d2aea8750308
-SHA1: fc5bb2de73e60dadf44ac46f116fe6c9a89acedd
-SHA256: 3b64cabf41c199467ef35d2f1ffd77ea1298e6d0e2cb0202e5a1a2e00d3267a6
-SHA512: 1a7b9d61e9049a45f39d6dc49cfe8ecd27485faf1e7cb904884742a25643463315c5dc98ed1044110b25f2e205c3f96148f0595cb2985f0001be7fffd1968266
-Homepage: http://sourceforge.net/projects/process-progeny/
-Description: Returns process's progeny in all generations recursively
- calculated from PID as parent. It is simple as possible without any options.
- And its output could be used to kill processes, change priority or someting
- else.
 

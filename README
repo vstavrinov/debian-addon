@@ -2,14 +2,35 @@
 EXTRA DEBIAN REPOSITORY
 ------------------------
 
-Debian archive for packages not included in official distribution.<br>
+Debian repository for packages not included in official archive. To use it put the file:
+
+http://sourceforge.net/projects/debian-addon/files/debian-addon.list
+
+into /etc/apt/sources.list.d/ directory:
+
+wget -P /etc/apt/sources.list.d/ https://raw.githubusercontent.com/vstavrinov/debian-addon/master/debian-addon.list
+
+and import gpg key:
+
+wget -qO - https://raw.githubusercontent.com/vstavrinov/debian-addon/master/archive-key.asc | apt-key add - 
+
+Then update indexes with:
+
+apt-get update
+
+If You get error like Got a single header line over 360 chars, please upgrade Your apt-get
+
+After that You can install any packages:
+
+apt-get install <package-name>
+
 Available packages:
 
-http://sourceforge.net/projects/updeb/<br>
-http://sourceforge.net/projects/rpg/<br>
-http://sourceforge.net/projects/install-debian/<br>
-http://sourceforge.net/projects/flashstreamer/<br>
-http://sourceforge.net/projects/process-progeny/<br>
+https://github.com/vstavrinov/updeb
+https://github.com/vstavrinov/rpg
+https://github.com/vstavrinov/install-debian
+https://github.com/vstavrinov/progeny
+https://github.com/vstavrinov/flashstreamer
 
 <<<<<<<<
 

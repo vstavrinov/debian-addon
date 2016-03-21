@@ -1,1 +1,1 @@
-deb [arch=all] http://sourceforge.net/projects/debian-addon/files fresh main
+deb [arch=all] https://raw.githubusercontent.com/vstavrinov/debian-addon/master fresh main
