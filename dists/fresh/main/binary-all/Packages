@@ -47,18 +47,18 @@ Description: Readable Password Generator
 
 Package: install-debian
 Architecture: all
-Version: 2.2.10
+Version: 2.2.12
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
 Installed-Size: 71
 Depends: debootstrap, dialog, dmraid, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, aptitude
-Filename: pool/install-debian_2.2.10_all.deb
-Size: 22470
-MD5sum: 8da25b86710caca6cbdd61a858ec00cb
-SHA1: a8514213dd62e6dd146db37cdfa97955e2adcc7f
-SHA256: 1ec138e44d97db2b8cded42be0cc08fe33ee505f5644e2ac87c7181a09bb0f93
-SHA512: 500df020e95667bda581f2139ff5bfb520fbf3e781cd20c2a6c8c8285dda37794ce91e83afc0564dc419c17431223f3fadf29ddd1aa042ed56dc8ab49afbdcd4
+Filename: pool/install-debian_2.2.12_all.deb
+Size: 22494
+MD5sum: f39f3077753fc79967bb0002a69952b2
+SHA1: f4ea4c44c8ae44a68b4ce1a2e51975e0182cc967
+SHA256: 942514e91410e3156247204246690dcff10e124b8d51f61d1b7dca0914906a7a
+SHA512: ad5d922c0379519dfb48d40b7b00a8da53b0ccb6ec81ce7720d8e97460bacb72fddf84237c399a5effba1b880ad926a532718ffc4985991bcaa439c6709fe3f5
 Homepage: https://github.com/vstavrinov/install-debian
 Description: This command line utility installs Debian system non-interactively
  It should be started from within Live CD, Network Boot or from any bootable
