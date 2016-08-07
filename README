@@ -12,7 +12,8 @@ wget -P /etc/apt/sources.list.d/ https://raw.githubusercontent.com/vstavrinov/de
 
 and import gpg key:
 
-wget -qO - https://raw.githubusercontent.com/vstavrinov/debian-addon/master/archive-key.asc | apt-key add - 
+wget -qO - https://raw.githubusercontent.com/vstavrinov/debian-addon/master/archive-key.asc |
+apt-key add - 
 
 Then update indexes with:
 
@@ -26,11 +27,7 @@ apt-get install <package-name>
 
 Available packages:
 
-https://github.com/vstavrinov/updeb
-https://github.com/vstavrinov/rpg
-https://github.com/vstavrinov/install-debian
-https://github.com/vstavrinov/progeny
-https://github.com/vstavrinov/flashstreamer
+
 
 <<<<<<<<
 
