@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Architectures: all
 Codename: fresh
 Components: main
@@ -26,3 +29,14 @@ SHA512:
  c498b8ed881ce611a0c552ac3f18bade30879c7e47de26055627cb5d93cfead602d28c40b4bce349a5d727152962488d325f3d7117d0e7175df370bbbac5f362             5963 main/binary-all/Packages
  0fd90b321e1838d54c5c1af6fd377f7359efd984e6b98838210ab91130c28e19ed1ebcff0c9cc905630d254fa9d1ea54aa157bd396d99feb0f607474249a8d4f             2875 main/binary-all/Packages.gz
  60f59ce1a7f78eaedddc58192a1b631d2893870c92758901e8fd1682c5d0a4f3ac548ba058c6cfac801bf4a81539328307d442d9e471995491df4eecb7f65614               91 main/binary-all/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEB9J7iHBT64cAFlciwqIU9WtX0F0FAli63WgACgkQwqIU9WtX
+0F2ntwf/Rg19Wsm+z8aWJWiWJLULTaqDXX6IfdJo2Rg1qOoRxQ5xhv4rcf4qlSjw
+N3bDl9eml7dkoM95IXT1A8/aXzvm2tWhgNsw/2mZxcnaaDoGZf6ltIc+sh0LKggH
+vE+tDB+IC+7sYjNAQ8/e5BUIi4I7Y+krwzQhsf5CoKGSp6zBolbvt0ZyNVqclQbh
+IjPJ6DoPEzsI1cPdMpgQ4Il8ox0Kdj9IrQNkiGopbMfw7wR1wsQgR1z6RBIQY3H1
+3Vyx/g6VBqnDGNOPQd7TdTNnAXYNNSPb7JntZ1VrYyXdk6Nd3J8JGOm5SShQsUXE
+GQhwCXtLi4NdDwxnzxFOVfh2KdTySA==
+=K+FA
+-----END PGP SIGNATURE-----

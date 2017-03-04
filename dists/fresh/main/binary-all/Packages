@@ -1,17 +1,17 @@
 Package: updeb
 Architecture: all
-Version: 1.1.10
+Version: 1.1.11
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
-Installed-Size: 41
+Installed-Size: 43
 Depends: mailutils, aptitude | apt, debtags
-Filename: pool/updeb_1.1.10_all.deb
-Size: 11818
-MD5sum: a3cee29a8d8d28b6646fea2fda6abd37
-SHA1: 93869b3fc25c5c3605db289a27b99f23723306a6
-SHA256: dff55ebd97377d01b235a9afc9d5e0377964ab02aa4a7f0962127ceba66e7982
-SHA512: b36676201c3fc1f828a34da65dad0b00c9b825084811f02590bea9098f85ddf1546fc015d9c6735545c9c3b768fa91f0bc4b98cdef9a22a81ed17e98b0c9a7b8
+Filename: pool/updeb_1.1.11_all.deb
+Size: 11918
+MD5sum: 065650953079298c2938070d80f6fae8
+SHA1: aa88c88ad4bd561906d4dafa3b6e4cef627dabb1
+SHA256: c6a169a165fd6bc99e07f3c2edbb2e6bd2d5a416c08e5ca0ef3edeaccf7f08e4
+SHA512: 2d994f28f0bc2987c9ccdd2cca20a89766cec429bbe56cf9a4d219abe1257bdfdc14489ce5618aae543e758f8fdbeb9e7a07f5f12e1de34adab58edc7753f825
 Homepage: https://github.com/vstavrinov/updeb
 Description: Non-interactive upgrade Debian system
  This script will upgrade running Debian system and email the result: what was
