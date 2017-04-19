@@ -1,3 +1,37 @@
+Package: install-debian
+Architecture: all
+Version: 2.2.16
+Priority: optional
+Section: admin
+Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
+Installed-Size: 67
+Depends: debootstrap, dialog, dmraid, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, aptitude
+Filename: pool/install-debian_2.2.16_all.deb
+Size: 19630
+MD5sum: 5b065eee776536cfe41f7254e3a06d03
+SHA1: 8ac39564330a5742fc8713fbd2d2b3383e5c1d79
+SHA256: 24239e4aec21d2932bb2c04a9f6a9371894217a42910215f13008fae0938cc28
+SHA512: cabd2268868598599f865ac68568dfc723ef89a4341a2a535446c59410013241ca2979a90e2ecc42764dc241598440c762b33bc4bf93785b5fc1ead712e4aa3d
+Homepage: https://github.com/vstavrinov/install-debian
+Description: This command line utility installs Debian system non-interactively
+ It should be started from within Live CD, Network Boot or from any bootable
+ media, other then Your system disk. It fully supports software RAID and UEFI
+ boot. You can change defaults and most settings with command line options and
+ configuration variables. All settings if not defined in config file or as
+ command line options, will be set to it's defaults either as constant values
+ or evaluated from running system.
+ .
+ By default it chooses largest disk for installation. If there are more then
+ one such disk of the same size, it makes RAID array. Partitioning scheme
+ supports separate partition for /boot, and separate logical volumes for root
+ filesystem, /usr, /var, /tmp and /home. Also there are option to install system
+ into single pre-mount point. In this case partitioning and mounting every part
+ leave on Your own.
+ .
+ This script installs only bit more packages then base system includes. The
+ main purpose is to get bootable system. After booting new system You can
+ install everything what You want.
+
 Package: updeb
 Architecture: all
 Version: 1.1.11
@@ -44,40 +78,6 @@ Description: Readable Password Generator
  consecutive consonant. No consecutive consonant before and after digit.  Main
  stream is lower case letters. Chance to include digit and upper case letters
  may be adjusted.
-
-Package: install-debian
-Architecture: all
-Version: 2.2.13
-Priority: optional
-Section: admin
-Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
-Installed-Size: 71
-Depends: debootstrap, dialog, dmraid, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, aptitude
-Filename: pool/install-debian_2.2.13_all.deb
-Size: 22566
-MD5sum: d80b8e7fd068218376eaf9af6cbe0098
-SHA1: ded0538da78ebae36b73e9b3029821d222e6cae3
-SHA256: bc4523374455013ab9d0cd9574d975d38fefc041b1c865c56eb449c997c3fa0e
-SHA512: 0cbf62ab736f0309f1601526348799e4c8ae826fd7e0743c41ea5dc11c208b093558c18e755798af5c2b1fef01a951c117d0fcdf7eeba2f4c7d7553ba682d435
-Homepage: https://github.com/vstavrinov/install-debian
-Description: This command line utility installs Debian system non-interactively
- It should be started from within Live CD, Network Boot or from any bootable
- media, other then Your system disk. It fully supports software RAID and UEFI
- boot. You can change defaults and most settings with command line options and
- configuration variables. All settings if not defined in config file or as
- command line options, will be set to it's defaults either as constant values
- or evaluated from running system.
- .
- By default it chooses largest disk for installation. If there are more then
- one such disk of the same size, it makes RAID array. Partitioning scheme
- supports separate partition for /boot, and separate logical volumes for root
- filesystem, /usr, /var, /tmp and /home. Also there are option to install system
- into single pre-mount point. In this case partitioning and mounting every part
- leave on Your own.
- .
- This script installs only bit more packages then base system includes. The
- main purpose is to get bootable system. After booting new system You can
- install everything what You want.
 
 Package: progeny
 Architecture: all

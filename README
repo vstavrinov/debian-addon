@@ -27,9 +27,9 @@ apt-get install <package-name>
 
 Available packages:
 
+https://github.com/vstavrinov/install-debian
 https://github.com/vstavrinov/updeb
 https://github.com/vstavrinov/rpg
-https://github.com/vstavrinov/install-debian
 https://github.com/vstavrinov/progeny
 https://github.com/vstavrinov/flashstreamer
 
