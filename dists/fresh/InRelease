@@ -4,42 +4,42 @@ Hash: SHA256
 Architectures: all
 Codename: fresh
 Components: main
-Date: Thu, 05 Sep 2019 08:50:11 +0000
+Date: Tue, 12 Nov 2019 09:20:41 +0000
 Description: Extended Debian
 Label: debian-addon
 Origin: debian-addon
 Suite: fresh
 MD5Sum:
- d2a5a9958bdd0b66a6e193363e7304a5             1903 Release
- 68fafc7e8fbf26d5571ffa4d0e684e7e             5963 main/binary-all/Packages
- 2dfdb32d297b34d68f5625e2d4cf60d6             2864 main/binary-all/Packages.gz
+ c6b730348646f3300c79eca6cdfb56eb             1903 Release
+ 9cb0711a93bc3afb698817a0639272e5             5963 main/binary-all/Packages
+ 26b7dc422583fd68f6d487b17249198f             2862 main/binary-all/Packages.gz
  898f523c7679d37823d406be30d62637               91 main/binary-all/Release
 SHA1:
- 67ae5ba8e3658a48fd8fa96f1f8cd2da11388082             1903 Release
- fba03adc37b20dc4e726faf0adb686a7509164bc             5963 main/binary-all/Packages
- ec4a4ced2120d8f050f479e707c176b105ca4b98             2864 main/binary-all/Packages.gz
+ 5ae8572c5546a6159e86ad671509defda1698a2e             1903 Release
+ c6c94d7cd53f43f14d5f1a327451df434d616845             5963 main/binary-all/Packages
+ 5e93077912e6518cac0be919a8196e4bc3d245c8             2862 main/binary-all/Packages.gz
  338ce2cecf74417d39b49fc78d4e2d32f3e9a80d               91 main/binary-all/Release
 SHA256:
- ac6882f003c904b86dab3e478a1e8774b022e25ed48f361b2ca9e6916d2f7b61             1903 Release
- 09d4d9e3bc539eb0c0d45121071d34679b88b74316d7806163968a9197a186db             5963 main/binary-all/Packages
- 15d9eea02f117c36b263363a2992b83bff6d27605cb80595e4ea713af876f386             2864 main/binary-all/Packages.gz
+ 4e883ffdeeb0bf714e95452f3edbbf72eb9faf8eef824b598d6411667af37ae0             1903 Release
+ 92e5ef94e17c37c03a6ddfd048ec454423350cf687e6cc85bfbb62a32c310924             5963 main/binary-all/Packages
+ 2f44dcacd37aed8be515673efd33f04d4fe5b54e463ae08e1530799a06aa1c91             2862 main/binary-all/Packages.gz
  91b5e509b24e81dc42cffc7f1df8e55d486f013aff497708a462acc1ef9e7895               91 main/binary-all/Release
 SHA512:
- 321e16898f6dc2967b14f2014eecdffac7d36beedc6a83d0b1d65739951b1891c2deda9dac8aa450dfa9b7eb4801e651a1789a5848f9f80ac6ce0a28f0413651             1903 Release
- c08920bf37f0879a19fd0511be3ee10759097bc53d8c55f400f151cde6fd2f4686905b6933b2ef95fcaca9f84bfb6228b7bcca90fd62234dde43c84e8dcc1382             5963 main/binary-all/Packages
- b8cae5253d9c8e52f7fba95ec9160b4e0ae2804cc5b2f474386cdd0e66d2ca8281ead2f7a8576f7783029c7b7964d829210e66675eefba770dbc4b3da1ce7aa6             2864 main/binary-all/Packages.gz
+ 380d35be19cdfd03c89510d26e80cd92654c35c6074268dcaeec3195aff4f9ba09553a4b6c4e011aae8c9cde0cf8bb80d72f31047b69f29d0215c881139838da             1903 Release
+ d925d4309f0eedb0ba818e15797dbcb3c24d7e5d2d993c72f1a52a0d36f794048e0e9dfd4c94a564cdde57c2435deaf802697ca2c66b014846c300558a2d8c67             5963 main/binary-all/Packages
+ 1c418c85e2af19a07bd2013536fde01ebfb7bd31063ab7be827934415d3410f4aad4709e3f37559b1f2e522e4899f62febf560c595d2c0d76783ca3b9a995f43             2862 main/binary-all/Packages.gz
  60f59ce1a7f78eaedddc58192a1b631d2893870c92758901e8fd1682c5d0a4f3ac548ba058c6cfac801bf4a81539328307d442d9e471995491df4eecb7f65614               91 main/binary-all/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEYwOis5AT1st3lLLk3S0pHQOW0ZYFAl1wzEYACgkQ3S0pHQOW
-0ZY2kQv9GZ4oE6LvLcAk6GJep0rIVTzGbZGuyMNmJHNUQt4Z9M6UGsDPU2z9dPQ6
-m8TRDqgjijb53qvVj/i3NLT2N9kuVDLGclLaL2ET08j9l2v2+fKmipFctkRoRsFI
-I9py/B+UbAWwMi0iHrXpxrfi6Kh5M4Y9aSTiyEr7r2c8xmCjEdhETE68riZxATL5
-rEKBIL6VU0H24yJgZdoFGFs8RB8AznlE8YM+Bv4Z1bqKE6RVM5CY9z7g20g65ca5
-3MXkNwDcYZVQBzBLP5xiOyr4viP0iAU4ykxqSh1SG04TJA+xdAgJe3wEzGo2afax
-KlLSv4j7hfvOcIgWVXxq+DkOtjz5EpeVGqf0le2h0bb5qAgYCSZUD0aLU2BMLjgg
-oEGrrcK6X2FAlTKTCzzcfv/hZQWF+sTp3ACLRYGd/zUSr7OQD4VZyrFZbLIlxiAP
-p26RTG2a/ldH03bbt2gRShTentur1830VCvJkTKiq1Ay1b1AMqSTtfW+v0efuyOw
-QTiBiDPK
-=NRKy
+iQGzBAEBCAAdFiEEYwOis5AT1st3lLLk3S0pHQOW0ZYFAl3KeW4ACgkQ3S0pHQOW
+0ZanJQv9Fh6BBFKt1VGtzMle3j1VHeNrbFLjso5xsJWq59rdPPxQCU2RvkjBAc0R
+w+JUj5HuNMSYGspotyivZBWy/hQoDQhT4uGiIPVLfgyBz0Vkvqk+g9LXgik+9Rvo
+Lh41T/WSjnKNtr4TRSnp8Pew67E8+NGrDIM6+xPS4VRbBO+iV5mlbJ8A4nehWrfC
+GmLevt32M38kmE+dSV/xFue5yUFOCcAB6oS2pa222IwMiQ7kf1q/1akm+L0cXPSc
+4vZs79U3Pa7o7yX/AAG9eOmWOm5Kboq5rOf4oDgjnbMzxccEzXXcdmUT+wB4JvUV
+jtuP682yuaHGL7nzTO1YLfhFGeiykvUjcUiRr/lGdeJjU8S5L7LZutYAZmzOllH3
+WfulZvCmbIx3oc0yW/xd4jNCnah9mT+J1IF0HlzFQ9f3LAZsa6C2heGKtqRbPXpH
+SGWasvAZQcd+Ouot6+Cie59zwTwhhGnAWSHRzicnxceTYUmgFwKY4KSXxfRhsH7x
+NrRC2aim
+=sU5/
 -----END PGP SIGNATURE-----

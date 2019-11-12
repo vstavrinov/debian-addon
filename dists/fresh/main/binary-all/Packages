@@ -99,18 +99,18 @@ Description: Readable Password Generator
 
 Package: updeb
 Architecture: all
-Version: 1.1.11
+Version: 1.1.12
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
 Installed-Size: 43
 Depends: mailutils, aptitude | apt, debtags
-Filename: pool/updeb_1.1.11_all.deb
-Size: 11918
-MD5sum: 065650953079298c2938070d80f6fae8
-SHA1: aa88c88ad4bd561906d4dafa3b6e4cef627dabb1
-SHA256: c6a169a165fd6bc99e07f3c2edbb2e6bd2d5a416c08e5ca0ef3edeaccf7f08e4
-SHA512: 2d994f28f0bc2987c9ccdd2cca20a89766cec429bbe56cf9a4d219abe1257bdfdc14489ce5618aae543e758f8fdbeb9e7a07f5f12e1de34adab58edc7753f825
+Filename: pool/updeb_1.1.12_all.deb
+Size: 12044
+MD5sum: 3d28ae47d18de7783024f937457a5b87
+SHA1: 95eebf24ff21c9d5b5882720d94044148a8b9c72
+SHA256: 766dc40a12da61a0888d6a37caf994d9cec1533e1754feb682fe0790f2723212
+SHA512: eb3cd771b2d044c82aa3bf6dd90c134088428d2014f206fdbf5ad8f323e1e8b026893b4950079eec58a850379a7006ccc1851097662f727f173aef274c151637
 Homepage: https://github.com/vstavrinov/updeb
 Description: Non-interactive upgrade Debian system
  This script will upgrade running Debian system and email the result: what was
