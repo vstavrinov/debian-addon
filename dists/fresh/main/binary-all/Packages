@@ -24,18 +24,18 @@ Description: Flash video webcast tool
 
 Package: install-debian
 Architecture: all
-Version: 2.3.2
+Version: 2.3.3
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
 Installed-Size: 65
-Depends: debootstrap, dialog, dmraid, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, aptitude, procps, dosfstools, mailutils
-Filename: pool/install-debian_2.3.2_all.deb
-Size: 19760
-MD5sum: c98daeb9635a8e342c97e051ea8c5bbd
-SHA1: e4f8d90bae9f8f7223ce0cd28a541f5f16c2c9e0
-SHA256: d0dba3abf54c399f14aa5b473aa2686a95c61a8d6f2ada2d389df03377da0a37
-SHA512: f76822caefa5a1cf13b7cba73f2454dbd35f972f0efb16841c1f8b38216f8af70fee1fa74c3d815ba4c28e20ee46e7cabd1697c999a0b666aaa54aba6b190c5d
+Depends: debootstrap, dialog, dmraid, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, procps, dosfstools
+Filename: pool/install-debian_2.3.3_all.deb
+Size: 19812
+MD5sum: a9e5f1218fae07eb66ddee3a1a46917a
+SHA1: d3b2365abff0498e6c8e99f6b117e936ddca4bee
+SHA256: eea8d57a8b858f5c59e9de89e54c80e70fbdfb7a79a6c458a7e0590a454f0562
+SHA512: 84b39b6e35d04975b1a7a03982a1908ce9a3a1253281c2accd916a33ab84d88c179d71bc24e1220ecf52d4a0f90f697aea5b45d5a24e3a1b158c05f78bb1f998
 Homepage: https://github.com/vstavrinov/install-debian
 Description: This command line utility installs Debian system non-interactively
  It should be started from within Live CD, Network Boot or from any bootable
