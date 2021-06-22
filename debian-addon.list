@@ -1,1 +1,1 @@
-deb [arch=all] https://raw.githubusercontent.com/vstavrinov/debian-addon/master fresh main
+deb [arch=all signed-by=/usr/share/keyrings/debian-addon.gpg] https://raw.githubusercontent.com/vstavrinov/debian-addon/master fresh main

@@ -10,10 +10,9 @@ into /etc/apt/sources.list.d/ directory:
 
 wget -P /etc/apt/sources.list.d/ https://raw.githubusercontent.com/vstavrinov/debian-addon/master/debian-addon.list
 
-and import gpg key:
+and download gpg key:
 
-wget -qO - https://raw.githubusercontent.com/vstavrinov/debian-addon/master/archive-key.asc |
-apt-key add - 
+wget -P /usr/share/keyrings https://raw.githubusercontent.com/vstavrinov/debian-addon/master/debian-addon.gpg
 
 Then update indexes with:
 
