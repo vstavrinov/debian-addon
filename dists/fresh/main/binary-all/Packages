@@ -99,18 +99,18 @@ Description: Readable Password Generator
 
 Package: updeb
 Architecture: all
-Version: 1.2.4
+Version: 1.2.5
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
 Installed-Size: 44
 Depends: bsd-mailx, aptitude | apt, debtags
-Filename: pool/updeb_1.2.4_all.deb
-Size: 12356
-MD5sum: ae668b4e97b641d91d9c10a2373f2bef
-SHA1: 0e6391b6f4906b27d9203b2e2f9a49b15c97921a
-SHA256: df01ee653c9ef4e5a95f51d0c570cf9a4aec0cfc3875acf955fe96bff8d3345e
-SHA512: 6dcc228b7fe35c076008839a8791f9037b0790c050d1927dab51822deb499f41b3b3c3af97a8d49d01a298416bc2bbda73054acc7ce7d3f21ff6f0e21a2b24ca
+Filename: pool/updeb_1.2.5_all.deb
+Size: 12400
+MD5sum: 204c91ff351945a3e966cb99ce785dfd
+SHA1: 2e247761e1c5fff2b4fb529cef7f813123892d3b
+SHA256: ea372f3c6a711a91c09a2d17ed2e7faeabb554e63d09acf3676824fa36d8877c
+SHA512: d125a6d7224f338843595d995952cdf18196e3a7e08879a483f4c278a5b90d31515752382f690aa57fe043597a474ed22e5fbc48cf0aed2b0c26d25930d3df28
 Homepage: https://github.com/vstavrinov/updeb
 Description: Non-interactive upgrade Debian system
  This script will upgrade running Debian system and email the result: what was
