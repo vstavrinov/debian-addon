@@ -24,18 +24,18 @@ Description: Flash video webcast tool
 
 Package: install-debian
 Architecture: all
-Version: 2.3.8
+Version: 2.3.9
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
-Installed-Size: 65
-Depends: debootstrap, dialog, dmraid, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, procps, dosfstools, bsdmainutils
-Filename: pool/install-debian_2.3.8_all.deb
-Size: 20124
-MD5sum: b34b8afe68602ff4f454df08ac0097f9
-SHA1: 27756d29ff0bb6f53c112453ab4c6f422c9d9f9b
-SHA256: 8ce396336078276f8fe7f5f2b87c5e08de061bf158b063a31be928d31807d29a
-SHA512: 6df523c4acd16217a86b308677e5f6c51851c33e73b353d3e7f85d2190f1e347cf553fa648d103e34254651fd6a162492574fbe09a709a5f24c0a05d9fead7bf
+Installed-Size: 64
+Depends: debootstrap, dialog, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, procps, dosfstools, bsdmainutils
+Filename: pool/install-debian_2.3.9_all.deb
+Size: 19188
+MD5sum: 628da81ffa6a72172c1e3c57c21c5960
+SHA1: 7cac30dcf50b1b30b2b270bd780cbd3cbf58ac17
+SHA256: 3e899e3913d33bc4835c329ed890402cf7775520b1c7d4d8827a2414f37aaa91
+SHA512: 4fcdee728eeb4a16913e6356dfbd2cca92b058dfc99a397e074c33142f556a73d611b47942ef1a4f6a85a6a226b07b6397bed8a2e5c6caa51b8ea5a48872ed42
 Homepage: https://github.com/vstavrinov/install-debian
 Description: This command line utility installs Debian system non-interactively
  It should be started from within Live CD, Network Boot or from any bootable
