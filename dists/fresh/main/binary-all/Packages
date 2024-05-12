@@ -24,18 +24,18 @@ Description: Flash video webcast tool
 
 Package: install-debian
 Architecture: all
-Version: 2.4.3
+Version: 2.4.4
 Priority: optional
 Section: admin
 Maintainer: Vladimir Stavrinov <vstavrinov@gmail.com>
 Installed-Size: 66
 Depends: debootstrap, dialog, gawk, grub-pc-bin, grub-efi, lvm2, mdadm, parted, procps, dosfstools, bsdmainutils, sipcalc
-Filename: pool/install-debian_2.4.3_all.deb
-Size: 19580
-MD5sum: b278d32cb558b0bc4175042f3bade60a
-SHA1: bf57fc2a223d41aeab2471a3beb616b262a741e0
-SHA256: 2d59eec74762381db06e456e6fefcdc90484f505b5f95e7ddb30b28a1be1fb5e
-SHA512: ffd1ba7eac6f190ae9591d2a82a8f8e1f0d07b361942b6a56b6c88ed36f96af88b0169542ed473f89c1128f8d1df116dc4ebec7d07c24c985a989ea27971f70e
+Filename: pool/install-debian_2.4.4_all.deb
+Size: 19624
+MD5sum: f06f0fb8f573ff28231d0461bda09d18
+SHA1: 56612a72965777d7eabf997f41c8dd369c85bdaa
+SHA256: c65057047be379850903999b8048862adc8d3f60ee37f62175edef0003bf8148
+SHA512: 4687461c6c7e4583c9baa4afd855392945242412cb9c78fc45d1ed45dc60bd54b1188d6edcfd054fb691934ea28822ae9b00f2fd3e97b42535a4b27a9873a0d3
 Homepage: https://github.com/vstavrinov/install-debian
 Description: This command line utility installs Debian system non-interactively
  It should be started from within Live CD, Network Boot or from any bootable
