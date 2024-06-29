@@ -4,42 +4,42 @@ Hash: SHA256
 Architectures: all
 Codename: fresh
 Components: main
-Date: Sat, 29 Jun 2024 20:07:10 +0000
+Date: Sat, 29 Jun 2024 20:18:41 +0000
 Description: Extended Debian
 Label: debian-addon
 Origin: debian-addon
 Suite: fresh
 MD5Sum:
- 489f3dbc45bac662a82e6cc7b602c6d4             1903 Release
+ 142ab6ffa93fb389ca7c41abce271de9             1903 Release
  65da5205cd84c6681c7a5f464df01351             5991 main/binary-all/Packages
  d8d4bdcf698fc36b9878d82f6f844205             2884 main/binary-all/Packages.gz
  898f523c7679d37823d406be30d62637               91 main/binary-all/Release
 SHA1:
- 2609baf91dc79d878655c518099ea715ecdfc0a5             1903 Release
+ 87f95d616caafd869682f7e7f5d12bdee4c42d0c             1903 Release
  b304ac046b0e81aec58c4ae6d6387ea62ef853cc             5991 main/binary-all/Packages
  ceb5a471aeee652e906419e42044d6341b7e2509             2884 main/binary-all/Packages.gz
  338ce2cecf74417d39b49fc78d4e2d32f3e9a80d               91 main/binary-all/Release
 SHA256:
- fbe631a1823cef8195708f49349d890dd8874ae92f5f0ae30e6a67022111bea5             1903 Release
+ f92bda62239073ae63cb1bd5cd595111216ebaeb4883f47971f89fe4676de0a9             1903 Release
  0941bfce7213ef0ac9d11241fcc12d1f87db4b8faf97f61aedc3a192d1633a16             5991 main/binary-all/Packages
  c85405078fabfa6f48c56b842d35d47371b73c9a7b43e07183ad2254ff19a804             2884 main/binary-all/Packages.gz
  91b5e509b24e81dc42cffc7f1df8e55d486f013aff497708a462acc1ef9e7895               91 main/binary-all/Release
 SHA512:
- ffbf67075b6151b8e75c0fca2b6b9592e0df0f9cdb81e7b1c4cbe04310ea6cd94168f53763228244fb371a6b9045457ed67dc1aa42dd1f65fd230352b62fa708             1903 Release
+ 12c5b4baffd9e04692ff27915a1c4e2bc9a619b649ea7e8da9998a87e2ceba2b8b48034dd7ed8dc82977274962bc3181837b721a7fb37de9f390a4bc66c54113             1903 Release
  66c938fc05707e8ea56efee469678996b0b2be62183d25525c2788311c93c63834fdea66d91abe3dd6644dc98dfdfa310e67233e6b2147cc5525e0a6fcc12c8c             5991 main/binary-all/Packages
  1ab8077a6bc3c9faba8fba85dc2130c8ef82cb6c095194d007f081f3915e5a76f609389e318cb1208eea2c1f91ec716c81cfe131080016f22bc660310ce376bc             2884 main/binary-all/Packages.gz
  60f59ce1a7f78eaedddc58192a1b631d2893870c92758901e8fd1682c5d0a4f3ac548ba058c6cfac801bf4a81539328307d442d9e471995491df4eecb7f65614               91 main/binary-all/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEjqh22FH5/QMwHq9qiBx7Cx2o9wYFAmaAaXEACgkQiBx7Cx2o
-9wbMLgv+MThMWi0kGSB5nNjYYbvHN89+ZHus3jiKSexjjd9lACbE+kzexSVoOAg1
-6Wqi7mPaym3adEfLQ32HaBikvkEauPIBPiQAzPQPMXEOBs8nkP3tYke9liS4peF7
-YTssltkmUKDKZ2mSOh+w8ktoCsIRl59KRNnYLeYKBA9vV3GC6b1oJSguSN1I8xTx
-MsGbL7ChkL+XJZZdOSLX8d/Ghiz/CXSKTimZF/d3lg3dIn/DrsYz8wy8rWDPFYv0
-lb7DEk3ATf8q3ww3QcZHvPLLuVhH1KE3X2qqu2XUM2TnyrN7Maq6Ic79fldAK5vb
-G7XiemiARXGI+XootSxVYxaBFCzogNjKyjhsklsDWkJ80Sufa0UN3SunkwuVfDHt
-8p/KG3vr0/nVXYUei56Q75jIbG7clvA7r5vz/bdJNHmEpMJTQZuaqnTn3Ebets0/
-aJ1FcvxyzxdICR1RJtklESwVT56UAkWIqZFm7CFf6q8wxe6K8JJEzSDvNMRrXFXz
-59ik+h7W
-=sHDD
+iQGzBAEBCAAdFiEEjqh22FH5/QMwHq9qiBx7Cx2o9wYFAmaAbCMACgkQiBx7Cx2o
+9wampAv+PJFfYldl8ZGixhfU8gxQLDdp0xXvU4Mzs4/2/nJOv7tLHig0xF7RPSEp
+8wEATPqo5kduZ11dVmInS8SKWjIXnlIqatscvEMN4mcQzsKf565IQIyReQlA13G7
+U/v+xiUmSRQ4PLnADcD9BeYSyCQF5o/qFNdLoM+VBJHLC8uGCAzXyRwBHHUG5vY/
+FnxdLEFx1h9NBI7HniyXWkvdT32Nsh1/ySuJwFaCutfmk1xgw8GKhBTOqXRabF2p
+Lm+z72mOWMYF82ZqaEkqybcq64w0JA2qcG1losqG9FyQiRLYCUIBtjA1mBiR6P1Q
+Zixpq5zvjYXoMSxofVMyr+Ur4DN39Ctt5OA0OQa/0ZNtefw1euydI/efviKlzlRC
+Y7DepBOgJfyxQ5P7mP2ddiYceGU3WQoLl/n6FJNy/CQ5ffxhdJrqitNsm3fglCom
+AdMXYBu8ZBTMKYE1O5T4Wfll/aIh3FrQKAw79GJfNF6JzHWbmaugCsv2eqO1NwSa
+3rcTGolW
+=fhA5
 -----END PGP SIGNATURE-----
