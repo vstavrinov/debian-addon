@@ -2,7 +2,7 @@
 EXTRA DEBIAN REPOSITORY
 ------------------------
 
-Debian repository for packages not included in official archive. To use it put the file:
+Debian repository for packages not included in official archive.To use it put the file:
 
 https://raw.githubusercontent.com/vstavrinov/debian-addon/master/debian-addon.list
 
@@ -18,7 +18,7 @@ Then update indexes with:
 
 apt-get update
 
-If You get error like Got a single header line over 360 chars, please upgrade Your apt-get
+If You get error like Got a single header line over 360 chars,please upgrade Your apt-get
 
 After that You can install any packages:
 
