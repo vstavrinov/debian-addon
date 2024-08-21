@@ -1,28 +1,28 @@
 Architectures: all
 Codename: fresh
 Components: main
-Date: Tue, 09 Jul 2024 17:43:07 +0000
+Date: Wed, 21 Aug 2024 15:40:15 +0000
 Description: Extended Debian
 Label: debian-addon
 Origin: debian-addon
 Suite: fresh
 MD5Sum:
- 3cc6f4478cd7e0aaa8c0d8b42d10dc9e             1903 Release
- b5ccd59dca18aa2c5075886b180d70aa             5991 main/binary-all/Packages
- 6ba74be9703b9ba75852f4ff31500b59             2885 main/binary-all/Packages.gz
+ 3e63952a86ec334bb87f66c76b7d6713             1903 Release
+ abd64d6e448941b31ef8b765446d2c6f             6004 main/binary-all/Packages
+ d951fb313e97dbf3129076f110804bac             2896 main/binary-all/Packages.gz
  898f523c7679d37823d406be30d62637               91 main/binary-all/Release
 SHA1:
- 2af2ba64332dc4509880065015fd1e79e8b28a47             1903 Release
- db9822250b34e6b405763c2a9e552820a74830a4             5991 main/binary-all/Packages
- e6bf732f162f4bdd29ae5cb51be00f510854930d             2885 main/binary-all/Packages.gz
+ 908e98fa43f75a06a60af1cd20fa26095dcea193             1903 Release
+ 98478aa14e883e09179f1474f28f995494c44c0e             6004 main/binary-all/Packages
+ bd2a6b88b26e1c4bc261fcac59b31de49d3c32c3             2896 main/binary-all/Packages.gz
  338ce2cecf74417d39b49fc78d4e2d32f3e9a80d               91 main/binary-all/Release
 SHA256:
- 710fe9bc624a9f55e7792f835c86afffb2ed44cd94aa9b9c637c42a889707e6c             1903 Release
- 2567a0e7ce64145efac01eb4d6a081d5ac8cbe88434a3d829f82813af6dc2fc4             5991 main/binary-all/Packages
- 36e9ba6409242dd79897609c92dfb264bbfbed8101adf4ed6997cc8841c41f45             2885 main/binary-all/Packages.gz
+ cc84f9ea26c704fe7850b0783bb85454114ca2290adbf2d9ffc5a51b4659e08e             1903 Release
+ b0db1a192c48c3492ebd3d5216d304d5adc45072814e5be2b0d216667c3dfe57             6004 main/binary-all/Packages
+ a98c7a6b442fa32eb3e1498e5530e9dd1aa27719d1151fc71a111498d9fdc323             2896 main/binary-all/Packages.gz
  91b5e509b24e81dc42cffc7f1df8e55d486f013aff497708a462acc1ef9e7895               91 main/binary-all/Release
 SHA512:
- 085c74d79d1a52d2fc47e37df4bffc36ad68e3c8d46321f76da26111091ee224dd3391ffd4a06f4660102e025c904fbe5499d5c36484d9c17fe7cb116f8f34ff             1903 Release
- 65d50aed2fbf3ffb9783862f6b32a31b85179203d2b28ec401728b9b91df3a398c85583609c7192ad5ad30425a730bdb9236e1762fd904a75bfc1437ca9fe7df             5991 main/binary-all/Packages
- c81e6f7e8d975db5c3b914c9a0912ca4b004c26b1eaa92c5d51b8cf3f69a23c6f77df9c8792fc07062d6d3a0db676b904ed1b666f39ada9482121d9133751d7d             2885 main/binary-all/Packages.gz
+ 15594f108d09c46cccfc5ff77473ae84b28222eef1a83867f87f8b50b7fc6ae538e5e98b10bc7399ea363034304b6986cb4b61f9923c501d62d466bf8881f81b             1903 Release
+ 6a6f31495044c43e6b8d0b0b1c8c1985d5385f9b3cf5d5b1792b90967a4759cd7fabcbfa30f5bc976be0c290957e2d0d7f6ad40d72caf22fd487b0fff19f333b             6004 main/binary-all/Packages
+ baf0c015c31542b45cf8087925ba48ad05ff2768ec396c768a364bff5248f476d4bbf79cd4bd78ea6bc247d128a939b1cee5cd28c4e638756b168e4f0c798db5             2896 main/binary-all/Packages.gz
  60f59ce1a7f78eaedddc58192a1b631d2893870c92758901e8fd1682c5d0a4f3ac548ba058c6cfac801bf4a81539328307d442d9e471995491df4eecb7f65614               91 main/binary-all/Release
